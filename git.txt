@@ -1,0 +1,67 @@
+1)	Create a folder called Git .
+
+2)	Navigate into the Git folder.
+
+3)	Create a file called first.txt.
+
+4)	Initialize an empty git repository.
+	>>> git init
+
+5)	Set environment variables user.name and user.email and display the set variables.
+	username >>> git config --global user.name "<name>"
+
+	useremail >>> git config --global user.email "<emaill"
+
+	display username >>> git config --global user.name 
+
+	display useremail >>> git config --global user.email
+
+
+
+
+
+ 
+6)	Add first.txt to the staging area.
+	>>> git add  first.txt
+
+7)	Make first.txt to go back to being untracked.
+	>>> git rm --cached first.txt
+
+8)	Check out your commit with git log.
+	>>> git log
+
+9)	Create another file called sec.txt.
+ 	>>>vi sec.txt
+
+
+
+10)	Add sec.txt to the staging area.
+	>>>git add sec.txt
+
+11)	Remove sec.txt file
+	>>> git rm -f sec.txt
+
+12)	Add this change to the staging area.
+	>>> git add.
+	or
+	>>> git add filename
+	
+13)	Commit with the message "removing sec.txt"
+	>>>git commit -m "<message>"
+
+
+14)	Check out your commits using git log.
+	>>>git log
+
+
+15)	Create file third.txt.
+	>>>git vi third.txt
+16)	Add third.txt to staging area.
+	>>>git add third.txt
+17)	Commit with message “Adding third.txt”
+	>>> git commit -m "adding third.txt"
+
+18)	Remove third.txt.
+	>>>git rm -f third.txt
+19)	Restore third.txt back into working directory.
+	>>> git checkout -f

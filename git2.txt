@@ -1,0 +1,73 @@
+1)	Create a repository on github.com by the name ‘my_demo_repo’.
+>>> create my_demo_repo  // git hub
+
+2)	Add 2 files to the repository. 
+>>> add file      // git hub
+
+
+name.txt (add names Humpty, Dumpty, Tom, Jerry, Scooby ) 
+email.txt (add 5 email ids of your choice)
+
+
+
+
+3)	Create a directory in your present working directory by the name ‘cloned_repo’ and navigate to the directory.
+
+>>>mkdir cloned_repo   // git bash
+
+4)	Clone the remote repository ‘my_demo_repo’ to the current directory.
+>>> git clone <url of my_demo_repo //git bash
+
+
+5)	Display information about remote repository.  // git hub
+
+>>> cd my_demo_repo  // git bash
+>>> ls  // git bash
+
+6)	Change the file first.txt by replacing ‘Scooby’ with ‘Mocha’.
+>>> vi name.txt   // git bash
+
+7)	Using appropriate git command check the difference made.
+>>> git diff   // git bash  
+
+8)	Commit changes to Local repository.
+>>> git commit -m "commit changes"    // git bash
+
+9)	Make sure the remote repository is up to date and push the new changes to remote repository.
+>>>git checkout // git bash
+>>>git push    // git bash
+
+10)	Create branch ‘yourinitials-edit’ and switch to this branch.
+>>> git branch yourinitials-edit    // git bash
+>>> git checkout yourinitials-edit   // git bash
+
+11)	Display existing local branches.
+>>> git branch    // git bash
+
+12)	Change one email in the file second.txt.
+>>vi email.txt    // git bash
+
+13)	Commit changes to Local Repository.
+>>> git commit -a    // git bash
+
+14)	Push branch changes to remote repository.
+>>>git push  origin yourinitials-edit    // git bash
+
+
+15)	Display Local and Remote Branches.// git hub
+
+
+16)	Display which branches have been merged.    // git hub
+
+17)	Merge changes with main.
+>>>git merge <branch_name>    // git bash
+
+18)	Push changes to Remote Repository.
+>>> git push   // git bash
+
+19)	Delete local branch ‘yourname_edit’
+>>>git  branch -d yourname_edit     // git bash
+
+
+20)	Delete remote branch ‘yourname_edit’.// git hub
+
